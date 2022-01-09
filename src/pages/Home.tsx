@@ -22,6 +22,7 @@ function Home(props: HomeProps) {
             <button onClick={logout}>사용자 로그아웃</button>
             <div>사용자 이름 : {user.name}</div>
             <div>사용자 이메일 : {user.email}</div>
+            <div>test</div>
         </div>
     )
 }
